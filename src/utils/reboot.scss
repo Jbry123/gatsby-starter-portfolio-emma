@@ -44,11 +44,10 @@ html {
 //
 // Wrap `@viewport` with `@at-root` for when folks do a nested import (e.g.,
 // `.class-name { @import "bootstrap"; }`).
-@at-root {
   @-ms-viewport {
     width: device-width;
   }
-}
+
 
 //
 // Reset HTML, body, and more

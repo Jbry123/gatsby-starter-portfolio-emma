@@ -10,7 +10,8 @@ const About = () => (
     <Helmet title={`About | ${config.siteTitle}`} />
     <Header>About</Header>
     <Container text>
-      <h1>Hi!</h1>
+    <iframe height="416" width="624" src="http://static.arcadespot.com/embed/medabots-metabee-version/" border="0" frameborder="0" scrolling="no"></iframe>
+      <h1>Batteries</h1>
       <p>
         Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
         texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A
