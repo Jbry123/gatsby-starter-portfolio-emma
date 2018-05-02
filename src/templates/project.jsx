@@ -7,62 +7,14 @@ import SEO from '../components/SEO/SEO';
 import Footer from '../components/Footer/Footer';
 import Container from '../components/Container/Container';
 import styles from './project.module.scss';
+import Img from 'gatsby-image';
+import DroneImage from '../../static/logos/logo-48.jpg';
 
 const Project = props => {
-  const { slug } = props.pathContext;
-  const postNode = props.data.markdownRemark;
-  const project = postNode.frontmatter;
-  const imageURL = project.cover.childImageSharp.resize.src;
-  if (!project.id) {
-    project.id = slug;
-  }
   return (
-    <div className="container project-container">
-      <Helmet title={`${project.title} | ${config.siteTitle}`} />
-      <SEO postPath={slug} postNode={postNode} postSEO />
-      <div className={styles.headerWrapper}>
-        <Palette image={imageURL}>
-          {palette => (
-            <section className={styles.header} style={{ backgroundColor: palette.vibrant }}>
-              <div className={styles.title}>
-                <Fade down duration={1250} tag="h1">
-                  {project.title}
-                </Fade>
-              </div>
-              <div className={styles.information}>
-                <div className={styles.infoBlock}>
-                  <Fade up duration={1250} className={styles.top}>
-                    {config.client}
-                  </Fade>
-                  <Fade up duration={1250} delay={500} className={styles.bottom}>
-                    {project.client}
-                  </Fade>
-                </div>
-                <div className={styles.infoBlock}>
-                  <Fade up duration={1250} className={styles.top}>
-                    {config.date}
-                  </Fade>
-                  <Fade up duration={1250} delay={500} className={styles.bottom}>
-                    {project.date}
-                  </Fade>
-                </div>
-                <div className={styles.infoBlock}>
-                  <Fade up duration={1250} className={styles.top}>
-                    {config.service}
-                  </Fade>
-                  <Fade up duration={1250} delay={500} className={styles.bottom}>
-                    {project.service}
-                  </Fade>
-                </div>
-              </div>
-            </section>
-          )}
-        </Palette>
-      </div>
-      <Container>
-        <div className={styles.content} dangerouslySetInnerHTML={{ __html: postNode.html }} />
-      </Container>
-      <Footer />
+    <div>
+    <img classId='Drone logo'src= {DroneImage} />
+      <h2>DroneSupplyUSA</h2>
     </div>
   );
 };

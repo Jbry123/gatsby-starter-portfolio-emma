@@ -30,6 +30,7 @@
     "gatsby-source-filesystem": "^1.5.33",
     "gatsby-transformer-remark": "^1.7.40",
     "gatsby-transformer-sharp": "^1.6.23",
+    "nuka-carousel": "^4.1.0",
     "react-burger-menu": "^2.4.2",
     "react-headroom": "^2.2.2",
     "react-helmet": "^5.2.0",

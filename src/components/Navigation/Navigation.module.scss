@@ -5,10 +5,10 @@
   display: flex;
 
   a {
-    color: #ADF7B6;
+    color: #5BC0BE;
 
     &:hover {
-      color: $brand-primary;
+      color: #3A506B;
     }
   }
 }
@@ -44,7 +44,7 @@
   a {
     &:hover,
     &:focus {
-      color: $body-color;
+      color: #3A506B;
       text-decoration: none;
     }
   }
@@ -61,7 +61,7 @@
 }
 
 .mobileNav {
-  background-color: $background-color;
+  background-color: #3A506B;
   display: none;
   height: 50px;
   position: fixed;

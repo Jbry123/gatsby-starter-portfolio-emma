@@ -1,0 +1,28 @@
+@import "../../../config/variables";
+
+
+.content {
+  width: 400px;
+  height: 225px;
+  text-align: center;
+  
+}
+.slider {
+  text-align: center;
+  margin-left: 102%;
+  margin-bottom: 30px;
+
+}
+
+h3{
+  text-align: center;
+  padding-top: 20px;
+}
+
+div.slider-control-centerleft {
+  top: 87.6%;
+}
+
+div.slider-control-centerright {
+  top: 87.6%;
+}
