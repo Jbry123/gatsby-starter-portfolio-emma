@@ -6,6 +6,8 @@ import Footer from '../components/Footer/Footer';
 import config from '../../config/SiteConfig';
 import DroneImage from '../../static/logos/logo-512x512.jpg';
 import Slider from '../components/Slider/Slider';
+import BatterySlider from '../components/BatterySlider/BatterySlider';
+
 
 
 
@@ -15,18 +17,35 @@ const About = () => (
     <Header>Choose A Shop!</Header>
     <Container>
       <div class='batteryDiv'>
-      <h3>Batteries And Chargers</h3>
-      <Slider/>
+        <p>
+        </p>
+        <h3 style={{textAlign:"center", color:"#5BC0BE"}}>
+          <a href="/contact">
+            Batteries/Chargers
+          </a>
+        </h3>
+        <BatterySlider />
       </div>
-      <div class='PropDiv'>
-      <h3>Propellers And Guards</h3>
-      <Slider/>
+      <div class='batteryDiv'>
+        <p>
+        </p>
+        <h3 style={{textAlign:"center", color:"#5BC0BE"}}>
+          <a href="/contact">
+            Propellers/Guards
+          </a>
+        </h3>
+        <BatterySlider />
       </div>
-      <div class='RTRDiv'>
-      <h3>Ready To Run Kits</h3>
-      <Slider/>
-      </div>
-    </Container>
+      <div class='batteryDiv'>
+        <p>
+        </p>
+        <h3 style={{textAlign:"center", color:"red"}}>
+          <a href="/contact">
+          Ready To Run Kits
+          </a>
+        </h3>
+        <BatterySlider />
+      </div>    </Container>
     <Footer />
   </div>
 );
