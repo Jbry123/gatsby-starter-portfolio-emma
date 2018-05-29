@@ -16,7 +16,7 @@ class VideoBox extends React.PureComponent {
     return (
       <div id="videoDiv"> 
 
-        <div id="videoBlock1">   
+        <div id="videoBlock1"> 
         <img src="pattern1.jpg" alt="blah" className="rotate901">
         </img>
           <video autoPlay muted="false" loop id='container1'>

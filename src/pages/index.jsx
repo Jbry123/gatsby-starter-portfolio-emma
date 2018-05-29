@@ -1,7 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import config from '../../config/SiteConfig';
-import ProjectListing from '../components/ProjectListing/ProjectListing';
+import VideoBox from '../components/VideoBox/VideoBox';
 import Footer from '../components/Footer/Footer';
 
 const Index = props => {
@@ -12,7 +12,7 @@ const Index = props => {
         <title>{config.siteTitle}</title>
       </Helmet>
       <div>
-        <ProjectListing projectEdges={projectEdges} />
+        <VideoBox />
       </div>
       <Footer />
     </div>
