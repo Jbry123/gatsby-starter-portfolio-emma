@@ -1,14 +1,18 @@
 @import "../../../config/variables";
 
+$no-hover-color: #392F5A;
+$hover-color: #1C0B19;
+
+
 .wrapper {
   align-items: center;
   display: flex;
 
   a {
-    color: #5BC0BE;
+    color: $no-hover-color;
 
     &:hover {
-      color: #3A506B;
+      color: $hover-color;
     }
   }
 }
@@ -16,6 +20,10 @@
 .navigation,
 .name,
 .socialMedia {
+  h3 {
+    padding-top: 1px;
+    font-size: 19px;
+  }
   display: flex;
   flex: 1;
   justify-content: center;
@@ -37,6 +45,7 @@
 
 .name {
   h3 {
+    top: -2%;
     font-size: 23px !important;
     margin-bottom: 0 !important;
   }
@@ -44,7 +53,7 @@
   a {
     &:hover,
     &:focus {
-      color: #3A506B;
+      color: $hover-color;
       text-decoration: none;
     }
   }
@@ -61,7 +70,7 @@
 }
 
 .mobileNav {
-  background-color: #3A506B;
+  background-color: $hover-color;
   display: none;
   height: 50px;
   position: fixed;
