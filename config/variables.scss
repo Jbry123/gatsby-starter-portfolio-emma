@@ -65,6 +65,8 @@ $brand-primary: #5BC0BE;
 $brand-secondary: #3A506B;
 $grey: #252525;
 $black: #000;
+$hover: #5F6A6B;
+$noHover: #2FA24E;
 
 // Configure your grid here
 // You don't need to change it!
@@ -98,9 +100,9 @@ html {
 // You don't need to change anything below here
 // --------------------------------------------
 
-$background-color: #5c7ca4;
+$background-color: #150B03;
 $body-color: #222;
-$link-color: $brand-primary;
+$link-color: $hover;
 $link-decoration: none;
 $link-color-hover: #3A506B;
 $link-decoration-hover: none;

@@ -42,7 +42,7 @@ export default class Navigation extends Component {
             <div className={styles.name}>
               <span>
                 <Link to="/">
-                  <h3 className="Title">{config.siteTitle}</h3>
+                  <h3 className="Title" >{config.siteTitle}</h3>
                 </Link>
               </span>
             </div>
