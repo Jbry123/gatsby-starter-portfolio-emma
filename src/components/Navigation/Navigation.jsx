@@ -48,7 +48,7 @@ export default class Navigation extends Component {
             </div>
             <div className={styles.socialMedia}>
               <span>
-                <a href="https://www.instagram.com/lekoarts.de" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/postravedepression" target="_blank" rel="noopener noreferrer">
                   <FaInstagram />
                 </a>
                 <a href="https://www.behance.net/lekoarts" target="_blank" rel="noopener noreferrer">
